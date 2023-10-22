@@ -6,6 +6,12 @@ const CardList = ({ robots }) => {
     <div>
       {
         robots.map((user, i) => {
+          
+          /* Code to test if errors are catching properly */
+          // if (true) {
+          //   throw new Error('Nooooooo!')
+          // }
+
           return (
             <Card
               key={i}
